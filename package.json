@@ -1,5 +1,5 @@
 {
-  "name": "dicoding-masakin-ffe",
+  "name": "movie-list-ffe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,13 +7,14 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
-  "author": "Aldilla Ulinnaja",
+  "author": "Naufal Addhiya",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.1.0",
@@ -25,6 +26,8 @@
     "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "daisyui": "^2.51.5",
     "regenerator-runtime": "^0.13.11"
   }
 }
